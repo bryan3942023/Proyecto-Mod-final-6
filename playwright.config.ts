@@ -44,13 +44,20 @@ export default defineConfig({
     /*launchOptions:{
       slowMo:100,
     },*/
+    //capture screenshot on faliure
+    screenshot:'only-on-failure',
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'],
+      viewport: null,
+    
+      launchOptions: {
+        args: ["--start-maximized"]
+    }  },
     },
 
     {

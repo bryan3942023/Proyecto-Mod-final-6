@@ -8,7 +8,8 @@ describe('Seleccionar, deseleccionar marcas y validar catidad de productos por m
     
    
     beforeAll( async () => {
-        await driverInstance.start(userData.browser);
+         //await driverInstance.start(userData.browser);
+         await driverInstance.start();
         await loginPage.navigateTo(userData.url);
         await loginPage.Login();        
     });

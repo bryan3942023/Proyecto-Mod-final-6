@@ -12,7 +12,8 @@ describe('agregar productos al carrito de compras, editar la catidad y eliminar 
     const checkoutPage: CheckoutPage = new CheckoutPage();
 
     beforeAll( async () => {
-        await driverInstance.start(userData.browser);
+         //await driverInstance.start(userData.browser);
+         await driverInstance.start();
         await loginPage.navigateTo(userData.url);
         await loginPage.Login();        
     });
@@ -21,6 +22,8 @@ describe('agregar productos al carrito de compras, editar la catidad y eliminar 
        // await driverInstance.closeDriver();
 
     });
+   
+
     test('agregar productos al carrito', async () => {
         await productsPage.addToCartItem('One Plus 6T');
         await shoppingcart.clickToCloseCart();

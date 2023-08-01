@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690859770057' stop='1690859783205'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690924738744' stop='1690924755129'>
     <name>agregar productos al carrito de compras, editar la catidad y eliminar todos los productos del carrito</name>
     <title>agregar productos al carrito de compras, editar la catidad y eliminar todos los productos del carrito</title>
     <test-cases>
-        <test-case start='1690859775998' status='passed' stop='1690859777912'>
+        <test-case start='1690924748453' status='passed' stop='1690924751269'>
             <name>agregar productos al carrito</name>
             <title>agregar productos al carrito</title>
             <labels/>
@@ -11,7 +11,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690859777912' status='passed' stop='1690859778115'>
+        <test-case start='1690924751269' status='passed' stop='1690924751778'>
             <name>Editar la catidad de productos</name>
             <title>Editar la catidad de productos</title>
             <labels/>
@@ -19,7 +19,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690859778115' status='passed' stop='1690859783146'>
+        <test-case start='1690924751778' status='passed' stop='1690924754933'>
             <name>realizar el checkout</name>
             <title>realizar el checkout</title>
             <labels/>
@@ -27,7 +27,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690859783146' status='passed' stop='1690859783205'>
+        <test-case start='1690924754933' status='passed' stop='1690924755129'>
             <name>Logout</name>
             <title>Logout</title>
             <labels/>

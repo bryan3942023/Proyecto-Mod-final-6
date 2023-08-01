@@ -5,12 +5,13 @@ import { mainHeader } from "../../src/pages/components/header.page";
 
 
 
-describe('Login and Logout', () => {
+describe('Loguearse y cerrar sesion', () => {
     const loginPage: LoginPage = new LoginPage();
     
    
     beforeAll( async () => {
-        await driverInstance.start(userData.browser);
+        //await driverInstance.start(userData.browser);
+        await driverInstance.start();
         await loginPage.navigateTo(userData.url);
         await loginPage.Login();        
     });

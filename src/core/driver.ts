@@ -10,9 +10,12 @@ export class Driver {
 
     private constructor(){}
 
-   // async start(browserName: string = 'chrome') {
-        async start(browserName: string = 'firefox') {
-        console.log('INIT ELEMENTS');
+    async start(browserName: string = 'chrome') {
+   // async start(browserName: string = 'firefox') {
+   // async start(browserName: string = 'webkit') {
+    //async start(browserName: string = 'msedge') {
+            
+        //console.log('INIT ELEMENTS');
         const browserInstance: BrowserType<{}> = await this.browserFactory(browserName);;
         this.browser = await browserInstance.launch(
         {

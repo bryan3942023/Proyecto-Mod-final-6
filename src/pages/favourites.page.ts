@@ -22,7 +22,7 @@ export class FavouritesPage extends BasePage {
   
     async getcountProducts(){
         await ElementActions.waitForTimeout(4000);
-        await ElementActions.screenshot();
+       // await ElementActions.screenshot();
         return ElementActions.locatorCount(this.itemsProducts);
     }
     

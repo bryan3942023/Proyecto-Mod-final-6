@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690858924544' stop='1690858959337'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690924739171' stop='1690924769583'>
     <name>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</name>
     <title>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</title>
     <test-cases>
-        <test-case start='1690858935387' status='passed' stop='1690858943093'>
+        <test-case start='1690924748852' status='passed' stop='1690924753309'>
             <name>agregar 2 productos a favoritos</name>
             <title>agregar 2 productos a favoritos</title>
             <labels/>
@@ -11,7 +11,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858943093' status='passed' stop='1690858947448'>
+        <test-case start='1690924753309' status='passed' stop='1690924757405'>
             <name>navegar a la pagina favoritos</name>
             <title>navegar a la pagina favoritos</title>
             <labels/>
@@ -19,7 +19,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858947448' status='passed' stop='1690858950851'>
+        <test-case start='1690924757406' status='passed' stop='1690924761397'>
             <name>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</name>
             <title>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</title>
             <labels/>
@@ -27,7 +27,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858950851' status='passed' stop='1690858959337'>
+        <test-case start='1690924761397' status='passed' stop='1690924769583'>
             <name>navegar a la pagina Favoritoss y eliminar de favoritos</name>
             <title>navegar a la pagina Favoritoss y eliminar de favoritos</title>
             <labels/>

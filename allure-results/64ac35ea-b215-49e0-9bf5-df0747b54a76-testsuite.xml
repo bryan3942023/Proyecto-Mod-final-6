@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690858924117' stop='1690858961733'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1690924738181' stop='1690924773052'>
     <name>Seleccionar, deseleccionar marcas y validar catidad de productos por marca</name>
     <title>Seleccionar, deseleccionar marcas y validar catidad de productos por marca</title>
     <test-cases>
-        <test-case start='1690858935088' status='passed' stop='1690858943406'>
+        <test-case start='1690924747420' status='passed' stop='1690924754650'>
             <name>Seleccionar y deselecionar Apple</name>
             <title>Seleccionar y deselecionar Apple</title>
             <labels/>
@@ -11,7 +11,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858943406' status='passed' stop='1690858949532'>
+        <test-case start='1690924754650' status='passed' stop='1690924760772'>
             <name>Seleccionar y deselecionar Samsung</name>
             <title>Seleccionar y deselecionar Samsung</title>
             <labels/>
@@ -19,7 +19,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858949532' status='passed' stop='1690858955632'>
+        <test-case start='1690924760772' status='passed' stop='1690924766897'>
             <name>Seleccionar y deselecionar Google</name>
             <title>Seleccionar y deselecionar Google</title>
             <labels/>
@@ -27,7 +27,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1690858955632' status='passed' stop='1690858961732'>
+        <test-case start='1690924766897' status='passed' stop='1690924773051'>
             <name>Seleccionar y deselecionar OnePlus</name>
             <title>Seleccionar y deselecionar OnePlus</title>
             <labels/>

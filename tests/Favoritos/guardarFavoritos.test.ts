@@ -17,7 +17,8 @@ describe('agregar productos a Favoritos y desde agregarlos al carrito y realizar
     
    
     beforeAll( async () => {
-        await driverInstance.start(userData.browser);
+         //await driverInstance.start(userData.browser);
+         await driverInstance.start();
         await loginPage.navigateTo(userData.url);
         await loginPage.Login();        
     });

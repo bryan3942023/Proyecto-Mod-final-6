@@ -2,7 +2,7 @@ import { driverInstance } from "../../src/core/driver";
 import { LoginPage } from "../../src/pages/login.page";
 
 
-describe('Feature Login StackDemo', () => {
+describe('Loguearse a la pagina StackDemo', () => {
    let loginPage: LoginPage;
 
     beforeAll(async () => {              
@@ -16,29 +16,29 @@ describe('Feature Login StackDemo', () => {
         await driverInstance.closeDriver();
     });
 
-    it('Go To Page', async () => {
+    it('Ir a la pagina de login', async () => {
         await loginPage.navigateTo('https://bstackdemo.com/signin');
     });
     
 
 
-    it('Sets Username', async () => {
+    it('Seleccionar usuario', async () => {
         
         await loginPage.setUsername();
     });
       
  
-    it('Sets Password', async () => {
+    it('Seleccionar password', async () => {
 
         await loginPage.setPassword();
     });
 
-    it('Clicks login Button', async () => {
+    it('Presionar boton login', async () => {
        
         await loginPage.clickButton();
     });
 
-    it('close browser', async () => {
+    it('Cerrar el navegador', async () => {
        
         await loginPage.close();
     });
