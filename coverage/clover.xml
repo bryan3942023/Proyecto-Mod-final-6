@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1690924774188" clover="3.2.0">
-  <project timestamp="1690924774188" name="All files">
+<coverage generated="1691032842725" clover="3.2.0">
+  <project timestamp="1691032842725" name="All files">
     <metrics statements="533" coveredstatements="464" conditionals="75" coveredconditionals="64" methods="76" coveredmethods="57" elements="684" coveredelements="585" complexity="0" loc="533" ncloc="533" packages="4" files="11" classes="11"/>
     <package name="Proyecto-Mod-final-6">
       <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -58,8 +58,8 @@
         <line num="28" count="5" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
         <line num="30" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="170" type="stmt"/>
-        <line num="32" count="170" type="stmt"/>
+        <line num="31" count="160" type="stmt"/>
+        <line num="32" count="160" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
         <line num="34" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="35" count="5" type="stmt"/>
@@ -151,8 +151,8 @@
         <line num="48" count="0" type="stmt"/>
         <line num="49" count="1" type="stmt"/>
         <line num="50" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="51" count="7" type="stmt"/>
-        <line num="52" count="7" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+        <line num="52" count="4" type="stmt"/>
         <line num="53" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="54" count="3" type="stmt"/>
         <line num="55" count="3" type="stmt"/>

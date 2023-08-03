@@ -36,7 +36,7 @@ FNF:7
 FNH:6
 FNDA:5,Driver
 FNDA:5,start
-FNDA:170,get Page
+FNDA:160,get Page
 FNDA:5,getInstance
 FNDA:0,isElementDisplayed
 FNDA:1,closeDriver
@@ -71,8 +71,8 @@ DA:27,5
 DA:28,5
 DA:29,1
 DA:30,1
-DA:31,170
-DA:32,170
+DA:31,160
+DA:32,160
 DA:33,1
 DA:34,1
 DA:35,5
@@ -115,7 +115,7 @@ LF:70
 LH:63
 BRDA:11,0,0,5
 BRDA:13,1,0,5
-BRDA:30,2,0,170
+BRDA:30,2,0,160
 BRDA:34,3,0,5
 BRDA:49,4,0,1
 BRDA:55,5,0,5
@@ -151,7 +151,7 @@ FNDA:7,textContent
 FNDA:10,fill
 FNDA:7,innerText
 FNDA:0,downloadFile
-FNDA:7,waitForTimeout
+FNDA:4,waitForTimeout
 FNDA:3,locatorCount
 FNDA:0,screenshot
 FNDA:1,close
@@ -205,8 +205,8 @@ DA:47,0
 DA:48,0
 DA:49,1
 DA:50,1
-DA:51,7
-DA:52,7
+DA:51,4
+DA:52,4
 DA:53,1
 DA:54,3
 DA:55,3
@@ -232,7 +232,7 @@ BRDA:30,2,0,5
 BRDA:33,3,0,7
 BRDA:38,4,0,10
 BRDA:42,5,0,7
-BRDA:50,6,0,7
+BRDA:50,6,0,4
 BRDA:53,7,0,3
 BRDA:65,8,0,1
 BRF:9

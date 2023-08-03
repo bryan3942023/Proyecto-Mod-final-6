@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1691023208494' stop='1691023216392'>
+    <name>Loguearse a la pagina StackDemo</name>
+    <title>Loguearse a la pagina StackDemo</title>
+    <test-cases>
+        <test-case start='1691023210747' status='passed' stop='1691023215805'>
+            <name>Ir a la pagina de login</name>
+            <title>Ir a la pagina de login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023215806' status='passed' stop='1691023216026'>
+            <name>Seleccionar usuario</name>
+            <title>Seleccionar usuario</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023216026' status='passed' stop='1691023216160'>
+            <name>Seleccionar password</name>
+            <title>Seleccionar password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023216160' status='passed' stop='1691023216223'>
+            <name>Presionar boton login</name>
+            <title>Presionar boton login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023216223' status='passed' stop='1691023216224'>
+            <name>Cerrar el navegador</name>
+            <title>Cerrar el navegador</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

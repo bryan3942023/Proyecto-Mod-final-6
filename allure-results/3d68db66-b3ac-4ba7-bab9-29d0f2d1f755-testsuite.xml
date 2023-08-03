@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1691032807889' stop='1691032824082'>
+    <name>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</name>
+    <title>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</title>
+    <test-cases>
+        <test-case start='1691032816600' status='passed' stop='1691032820733'>
+            <name>agregar 2 productos a favoritos</name>
+            <title>agregar 2 productos a favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691032820733' status='failed' stop='1691032820876'>
+            <name>navegar a la pagina favoritos</name>
+            <title>navegar a la pagina favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 2
+                Received: 25</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: 2
+                Received: 25
+                    at C:\Users\Administrador\Documents\GitHub\Proyecto-Mod-final-6\tests\favoritos\guardarFavoritos.test.ts:42:34
+                    at Generator.next (&lt;anonymous>)
+                    at fulfilled (C:\Users\Administrador\Documents\GitHub\Proyecto-Mod-final-6\tests\favoritos\guardarFavoritos.test.ts:5:58)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1691032820876' status='passed' stop='1691032823860'>
+            <name>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</name>
+            <title>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691032823861' status='passed' stop='1691032824081'>
+            <name>navegar a la pagina Favoritoss y eliminar de favoritos</name>
+            <title>navegar a la pagina Favoritoss y eliminar de favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

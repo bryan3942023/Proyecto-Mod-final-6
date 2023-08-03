@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1691023072384' stop='1691023113386'>
+    <name>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</name>
+    <title>agregar productos a Favoritos y desde agregarlos al carrito y realizar la compra</title>
+    <test-cases>
+        <test-case start='1691023095165' status='passed' stop='1691023099119'>
+            <name>agregar 2 productos a favoritos</name>
+            <title>agregar 2 productos a favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023099119' status='passed' stop='1691023103302'>
+            <name>navegar a la pagina favoritos</name>
+            <title>navegar a la pagina favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023103302' status='passed' stop='1691023105168'>
+            <name>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</name>
+            <title>agregar productos desde la pagina favoritos al carrito, y realizar el checkout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023105168' status='passed' stop='1691023113383'>
+            <name>navegar a la pagina Favoritoss y eliminar de favoritos</name>
+            <title>navegar a la pagina Favoritoss y eliminar de favoritos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -31,7 +31,7 @@ export class ElementActions {
         await driverInstance.Page.goto(url,{waitUntil:'networkidle'});
     }
     static async textContent(locator: string){
-        await driverInstance.Page.waitForSelector(locator);
+        ////await driverInstance.Page.waitForSelector(locator);
         return driverInstance.Page.textContent(locator);
     }
 

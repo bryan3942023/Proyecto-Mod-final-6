@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1691023208810' stop='1691023222929'>
+    <name>agregar productos al carrito de compras, editar la catidad y eliminar todos los productos del carrito</name>
+    <title>agregar productos al carrito de compras, editar la catidad y eliminar todos los productos del carrito</title>
+    <test-cases>
+        <test-case start='1691023217071' status='passed' stop='1691023219189'>
+            <name>agregar productos al carrito</name>
+            <title>agregar productos al carrito</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023219189' status='passed' stop='1691023219652'>
+            <name>Editar la catidad de productos</name>
+            <title>Editar la catidad de productos</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023219652' status='passed' stop='1691023222855'>
+            <name>realizar el checkout</name>
+            <title>realizar el checkout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1691023222855' status='passed' stop='1691023222929'>
+            <name>Logout</name>
+            <title>Logout</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
