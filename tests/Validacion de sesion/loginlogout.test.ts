@@ -17,7 +17,7 @@ describe('Loguearse y cerrar sesion', () => {
     });
 
     afterAll(async () => {
-       // await driverInstance.closeDriver();
+        await driverInstance.closeDriver();
 
     });
    

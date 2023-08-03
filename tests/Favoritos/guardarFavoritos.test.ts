@@ -24,7 +24,7 @@ describe('agregar productos a Favoritos y desde agregarlos al carrito y realizar
     });
 
     afterAll(async () => {
-        //await driverInstance.closeDriver();
+        await driverInstance.closeDriver();
 
     });
     test('agregar 2 productos a favoritos', async () => {

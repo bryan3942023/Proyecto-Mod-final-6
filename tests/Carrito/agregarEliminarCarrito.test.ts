@@ -19,7 +19,7 @@ describe('agregar productos al carrito de compras, editar la catidad y eliminar 
     });
 
     afterAll(async () => {
-       // await driverInstance.closeDriver();
+        await driverInstance.closeDriver();
 
     });
    

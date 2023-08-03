@@ -15,7 +15,7 @@ describe('Seleccionar, deseleccionar marcas y validar catidad de productos por m
     });
 
     afterAll(async () => {
-       // await driverInstance.closeDriver();
+        await driverInstance.closeDriver();
 
     });
    
