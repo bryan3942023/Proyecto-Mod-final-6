@@ -6,7 +6,7 @@ import { userData } from "../../user-data";
 import { shoppingcart } from "../../src/pages/components/shoppingcart.page";
 import { mainHeader } from "../../src/pages/components/header.page";
 
-describe('agregar productos al carrito de compras, editar la catidad y eliminar todos los productos del carrito', () => {
+describe('agregar productos al carrito de compras, editar la catidad y realizar el checkout', () => {
     const loginPage: LoginPage = new LoginPage();
     const productsPage: ProductsPage =  new ProductsPage();
     const checkoutPage: CheckoutPage = new CheckoutPage();
